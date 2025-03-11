@@ -9,7 +9,7 @@ namespace ApiPiaget.Data
 {
     public class ApiPiagetContext : DbContext
     {
-        public ApiPiagetContext (DbContextOptions<ApiPiagetContext> options)
+        public ApiPiagetContext(DbContextOptions<ApiPiagetContext> options)
             : base(options)
         {
         }
